@@ -19,9 +19,9 @@ class App extends Component {
         <p>This is the fam:</p>
         <button>Switch Name</button>
         <Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>
-        <Person name="Justin" age="19">My Hobbies: Basketball</Person>
-        <Person name="Janella" age="27"/>
-        <Person name="Jorel" age="32"/>
+        <Person name={this.state.persons[1].name} age={this.state.persons[1].age}>My Hobbies: Basketball</Person>
+        <Person name={this.state.persons[2].name} age={this.state.persons[2].age}/>
+        <Person name={this.state.persons[3].name} age={this.state.persons[3].age}/>
       </div>
     );
     // return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Does this work now?'));
